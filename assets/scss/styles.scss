@@ -1,0 +1,49 @@
+// #game-board{
+//     position: relative;
+//     width: 500px;
+//     height: 500px;
+//     border: 5px solid black;
+//     background-color: orange;
+// }
+
+#game-board{
+    border: 5px solid black;
+}
+
+#game-container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/snakeImage.jpeg);
+}
+
+#total-score{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+#reset-button{
+    font-family: 'Chakra Petch', sans-serif;
+    border: 5px solid;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+// #snake{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 30px;
+//     height: 30px;
+// }
+
+// #snake-image{
+//     width: 30px;
+//     height: 30px;
+// }
